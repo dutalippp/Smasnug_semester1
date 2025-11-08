@@ -1,0 +1,58 @@
+1.apa perbedaan file system linux dan windows?
+2.berikan gambar struktur file system linux dan windows?
+3.apa yg dimaksud direktori,folder,dan file?
+4.sebutkan 5 file extension dan jelaskan?
+5.perintah mengakses file di linux dan windows?
+6.apa perbedaan terminal dan command prompt?
+JAWABAN
+1.1.Windows
+Struktur: Menggunakan huruf drive (C:, D:, dll.) untuk memisahkan partisi dan perangkat
+Sistem Berkas: Umumnya menggunakan NTFS (New Technology File System) untuk disk sistem dan dukungan FAT/exFAT untuk perangkat penyimpanan eksternal
+Pemisahan Data: Menggunakan struktur yang berbeda untuk folder program (Program Files), data pengguna (Users), dan sistem (Windows)
+Sensitivitas Huruf: Nama berkas tidak sensitif terhadap huruf besar atau kecil (misalnya, File.txt dan file.txt adalah sama).
+1.2.LINUX
+Sistem berkas yang digunakan Linux disebut ext4 (Fourth Extended File System). Ext4 adalah sistem berkas jurnal yang pertama kali diperkenalkan pada tahun 2008 dan sejak itu menjadi sistem berkas standar untuk sebagian besar distribusi Linux.
+Salah satu fitur utama ext4 adalah dukungannya untuk penjurnalan, yang membantu mencegah kehilangan data jika terjadi kerusakan sistem atau kegagalan daya. Ext4 juga mendukung atribut berkas tingkat lanjut seperti izin, enkripsi, dan kompresi, meskipun fitur-fitur ini mungkin tidak diaktifkan secara default di semua distribusi Linux.
+Fitur lain dari ext4 adalah dukungannya untuk snapshot sistem berkas, yang memungkinkan administrator mengambil snapshot sistem berkas pada titik waktu tertentu. Ini dapat berguna untuk pencadangan, pemutakhiran sistem, atau tugas pemeliharaan lainnya.
+2.LINUX
+ 
+WINDOWS
+ 
+3.File
+Apa itu: Unit dasar penyimpanan data di komputer.
+Isi: Berisi data seperti teks, gambar, audio, video, atau program.
+Karakteristik: Memiliki nama unik dan ekstensi yang menunjukkan jenis datanya (misalnya, .txt, .jpg, .mp4). 
+Folder
+Apa itu: Wadah virtual untuk mengorganisir file.
+Isi: Dapat berisi satu atau lebih file, serta subfolder (folder di dalam folder).
+Fungsi: Membantu pengguna mengelompokkan file berdasarkan topik atau kategori untuk memudahkan pencarian dan pengelolaan.
+Analogi: Mirip seperti map atau lemari arsip yang menyimpan dokumen. 
+Direktori
+Apa itu: Istilah teknis yang sering digunakan untuk menyebut folder, terutama dalam konteks sistem operasi.
+Isi: Secara teknis, direktori adalah sebuah file yang berisi daftar semua file dan sub-direktori di dalamnya, beserta petunjuk lokasinya di penyimpanan.
+Fungsi: Mengatur file dan folder lain dalam struktur yang hierarkis dan sistematis.
+Hubungan dengan folder: Dalam penggunaan sehari-hari, "direktori" dan "folder" sering digunakan secara bergantian. Namun, "direktori" lebih menekankan pada struktur teknis di balik penyimpanan, sementara "folder" lebih merupakan representasi visual yang mudah dipahami pengguna. 
+4.Extension	File Type	Default Program (example)
+.docx	Word Document	Microsoft Word
+.png	Image File	Photos, Paint, Photoshop
+.exe	Executable Application	Runs directly as a program
+.txt	Text File	Notepad or any text editor
+.mp4	Video File	Windows Media Player, VLC, etc.
+5.Linux
+Melihat isi file: Gunakan cat namafile.txt untuk menampilkan seluruh isi file secara langsung.
+Mencari file: Gunakan find /path/to/search -name "namafile" untuk mencari file di direktori tertentu.
+Membuka terminal di direktori tertentu: Gunakan cd /path/to/directory.
+Meluncurkan File Explorer di direktori saat ini: Ketik explorer.exe . di terminal Linux (jika menggunakan WSL) untuk membuka File Explorer yang menunjukkan file di lokasi tersebut. 
+Windows
+Melihat isi file: Gunakan type namafile.txt di Command Prompt atau Get-Content namafile.txt di PowerShell.
+Mencari file: Gunakan dir /s namafile.txt di Command Prompt.
+Membuka terminal di direktori tertentu: Gunakan cd /path/to/directory.
+Meluncurkan File Explorer di direktori saat ini: Ketik explorer . di Command Prompt.
+Meluncurkan aplikasi dari Linux ke Windows: Gunakan wsl <command> di Command Prompt atau PowerShell, misalnya wsl notepad.exe. 
+6. Fitur 	Command Prompt (CMD)	Terminal (Linux/macOS)
+Sistem Operasi	Terutama Windows	Linux, macOS
+Fungsi	Menjalankan perintah di dalam antarmuka Windows	Menjalankan perintah melalui shell seperti Bash atau Zsh
+Tipe Program	Shell (cmd.exe)	Termasuk aplikasi tempat shell dijalankan
+Sintaksis	Menggunakan sintaksis perintah Windows (misalnya dir untuk melihat isi direktori)	Menggunakan sintaksis Unix/Linux (misalnya ls untuk melihat isi direktori)
+Kemampuan	Terbatas pada fungsi dasar Windows	Jauh lebih fleksibel dan kuat, terutama untuk skrip dan otomatisasi
+Contoh	dir untuk melihat file, ping untuk mengecek koneksi jaringan	ls untuk melihat file, ping untuk mengecek koneksi jaringan
