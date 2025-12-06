@@ -1,0 +1,23 @@
+Langkah langkah copot dan pasang lcd
+1.Nyalakan vacuum screen separator hingga memanas
+2.Letakkan perangkat di atas vacuum screen separator
+3.Setelah panas lepaskan lcd dari perangkat
+4.Lalu bersihkan sisa-sisa lem dari lcd dan perangkat
+5.Setelah dibersihkan lalu dilem kembali
+
+Langkah langkah membersihkan komponen dengan solder
+1.Siapkan solder, lalu nyalakan hingga panas
+2.pasang alas biru
+3.pasang komponen pada holder
+4.tempelkan solder yg sudah panas ke komponen agar memudahkan membersihkan kotoran pada komponen
+5.lalu bersihkan komponen dengan cotton bud yang dibasahi oleh tiner atau air
+
+Langkah langkah melepaskan konektor dengan solder uap
+1. panaskan solder uap nya terlebih dahulu
+2. atur suhu dan angin dari solder uap tsb
+3. panaskan komponen dengan solder uap dan flux
+4. jika sudah panas, dorong konektor dengan pinset dengan hati-hati
+5. lalu saat pasang kembali gunakan suhu angin 25
+6. gunakan lem solder paste untuk memasang kembali
+7. lalu panaskan dengan solder uap, sambil ditahan menggunakan pinset agar tidak bergerak konektor tersebut
+8. dan diamkan beberapa saat
